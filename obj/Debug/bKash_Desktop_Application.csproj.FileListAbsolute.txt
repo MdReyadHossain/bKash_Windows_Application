@@ -1,0 +1,15 @@
+D:\Code\C#\bKash_Desktop_Application\bin\Debug\bKash_Desktop_Application.exe.config
+D:\Code\C#\bKash_Desktop_Application\bin\Debug\bKash_Desktop_Application.exe
+D:\Code\C#\bKash_Desktop_Application\bin\Debug\bKash_Desktop_Application.pdb
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.csproj.AssemblyReference.cache
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.csproj.SuggestedBindingRedirects.cache
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Home.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Properties.Resources.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.csproj.GenerateResource.cache
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.csproj.CoreCompileInputs.cache
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.exe
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.pdb
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Registration.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Dashboard.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.RegistrationInformation.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
