@@ -124,4 +124,52 @@
   <data name="bKash_Design_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bKash_Design_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bKash_NGO_Payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_NGO_Payment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Send_Money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Send_Money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Save_Bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Save_Bill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Savings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Savings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Loan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Add_Money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Add_Money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_bKash_to_Bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_bKash_to_Bank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Myoffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Myoffer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Cash_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Cash_out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Remittance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Remittance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Pay_Bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Pay_Bill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Priyo_Number" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Priyo_Number.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Education_Fee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Education_Fee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Mobile_Recharge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Mobile_Recharge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Make_Payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Make_Payment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bKash_Donation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash_Donation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

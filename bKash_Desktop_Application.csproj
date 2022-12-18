@@ -122,5 +122,53 @@
   <ItemGroup>
     <None Include="Resources\bKash_Design_1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Send_Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Mobile_Recharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Cash_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Make_Payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Add_Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Pay_Bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Savings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Loan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_bKash_to_Bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Remittance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Education_Fee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_NGO_Payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Myoffer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Priyo_Number.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Save_Bill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Donation.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
