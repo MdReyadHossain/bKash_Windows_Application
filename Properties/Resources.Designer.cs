@@ -93,6 +93,56 @@ namespace bKash_Desktop_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bKash_Dashboard_Panel_2 {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Dashboard_Panel_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Dashboard_Theme {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Dashboard_Theme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Dashboard_Theme1 {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Dashboard_Theme1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Dashoard_Panel {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Dashoard_Panel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Dashoard_Panel1 {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Dashoard_Panel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bKash_Design_1 {
             get {
                 object obj = ResourceManager.GetObject("bKash_Design_1", resourceCulture);
@@ -103,9 +153,9 @@ namespace bKash_Desktop_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bKash_Donation {
+        internal static System.Drawing.Bitmap bKash_Donation1 {
             get {
-                object obj = ResourceManager.GetObject("bKash_Donation", resourceCulture);
+                object obj = ResourceManager.GetObject("bKash_Donation1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +193,39 @@ namespace bKash_Desktop_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bKash_Logo_White {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Logo_White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bKash_Make_Payment {
             get {
                 object obj = ResourceManager.GetObject("bKash_Make_Payment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Menu {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Menu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_Menu1 {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Menu1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +293,16 @@ namespace bKash_Desktop_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bKash_Reward_Star {
+            get {
+                object obj = ResourceManager.GetObject("bKash_Reward_Star", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bKash_Save_Bill {
             get {
                 object obj = ResourceManager.GetObject("bKash_Save_Bill", resourceCulture);
@@ -236,6 +326,16 @@ namespace bKash_Desktop_Application.Properties {
         internal static System.Drawing.Bitmap bKash_Send_Money {
             get {
                 object obj = ResourceManager.GetObject("bKash_Send_Money", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bKash_User_Logo {
+            get {
+                object obj = ResourceManager.GetObject("bKash_User_Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

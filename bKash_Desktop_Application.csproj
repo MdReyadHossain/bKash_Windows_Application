@@ -78,6 +78,18 @@
     <Compile Include="RegistrationInformation.Designer.cs">
       <DependentUpon>RegistrationInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="SendMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendMoney.Designer.cs">
+      <DependentUpon>SendMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionForm.Designer.cs">
+      <DependentUpon>TransactionForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="bKashPin.resx">
       <DependentUpon>bKashPin.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +114,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrationInformation.resx">
       <DependentUpon>RegistrationInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendMoney.resx">
+      <DependentUpon>SendMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionForm.resx">
+      <DependentUpon>TransactionForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -168,7 +186,37 @@
     <None Include="Resources\bKash_Save_Bill.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bKash_Donation.png" />
+    <None Include="Resources\bKash_Logo_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Dashoard_Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Dashoard_Panel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Dashboard_Panel_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Donation1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_User_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Reward_Star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Dashboard_Theme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash_Dashboard_Theme1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

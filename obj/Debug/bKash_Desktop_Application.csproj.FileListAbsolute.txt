@@ -13,3 +13,5 @@ D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Registr
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Dashboard.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.RegistrationInformation.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.SendMoney.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.TransactionForm.resources
