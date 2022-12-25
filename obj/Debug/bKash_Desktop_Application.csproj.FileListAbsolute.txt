@@ -15,3 +15,19 @@ D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Registr
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.SendMoney.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.TransactionForm.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.exe.config
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.pdb
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.csproj.AssemblyReference.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Dashboard.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Home.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Properties.Resources.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Registration.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.RegistrationInformation.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.SendMoney.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.TransactionForm.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.csproj.GenerateResource.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.csproj.CoreCompileInputs.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.pdb
