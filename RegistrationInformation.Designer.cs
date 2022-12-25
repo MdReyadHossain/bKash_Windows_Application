@@ -35,6 +35,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dateTimePickerDOB = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBoxDivision = new System.Windows.Forms.ComboBox();
@@ -50,22 +51,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labeluser = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.radioButtonParsonal = new System.Windows.Forms.RadioButton();
-            this.radioButtonAgent = new System.Windows.Forms.RadioButton();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBoxUserName = new System.Windows.Forms.TextBox();
-            this.dateTimePickerDOB = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,14 +118,12 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.dateTimePickerDOB);
-            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.comboBoxDivision);
             this.panel2.Controls.Add(this.comboBoxBlood);
             this.panel2.Controls.Add(this.textBoxAddress);
             this.panel2.Controls.Add(this.textBoxName);
-            this.panel2.Controls.Add(this.textBoxUserName);
             this.panel2.Controls.Add(this.textBoxFather);
             this.panel2.Controls.Add(this.textBoxMother);
             this.panel2.Controls.Add(this.label12);
@@ -142,8 +133,7 @@
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.labeluser);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
@@ -152,6 +142,17 @@
             this.panel2.Size = new System.Drawing.Size(646, 441);
             this.panel2.TabIndex = 1;
             this.panel2.Visible = false;
+            // 
+            // dateTimePickerDOB
+            // 
+            this.dateTimePickerDOB.CalendarForeColor = System.Drawing.Color.Red;
+            this.dateTimePickerDOB.CalendarTitleForeColor = System.Drawing.Color.Red;
+            this.dateTimePickerDOB.Location = new System.Drawing.Point(155, 186);
+            this.dateTimePickerDOB.MaxDate = new System.DateTime(2022, 12, 28, 0, 0, 0, 0);
+            this.dateTimePickerDOB.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dateTimePickerDOB.Name = "dateTimePickerDOB";
+            this.dateTimePickerDOB.Size = new System.Drawing.Size(220, 24);
+            this.dateTimePickerDOB.TabIndex = 25;
             // 
             // label13
             // 
@@ -327,16 +328,16 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "Father\'s Name";
             // 
-            // label5
+            // labeluser
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(3, 114);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 19);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Name";
+            this.labeluser.AutoSize = true;
+            this.labeluser.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeluser.ForeColor = System.Drawing.Color.Gray;
+            this.labeluser.Location = new System.Drawing.Point(3, 114);
+            this.labeluser.Name = "labeluser";
+            this.labeluser.Size = new System.Drawing.Size(81, 19);
+            this.labeluser.TabIndex = 7;
+            this.labeluser.Text = "User Name";
             // 
             // label4
             // 
@@ -371,83 +372,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Personal Informaition";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.radioButtonAgent);
-            this.panel3.Controls.Add(this.radioButtonParsonal);
-            this.panel3.Controls.Add(this.label14);
-            this.panel3.Location = new System.Drawing.Point(381, 162);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(241, 54);
-            this.panel3.TabIndex = 24;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(3, 6);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 19);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "Choose User";
-            // 
-            // radioButtonParsonal
-            // 
-            this.radioButtonParsonal.AutoSize = true;
-            this.radioButtonParsonal.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonParsonal.ForeColor = System.Drawing.Color.Red;
-            this.radioButtonParsonal.Location = new System.Drawing.Point(7, 28);
-            this.radioButtonParsonal.Name = "radioButtonParsonal";
-            this.radioButtonParsonal.Size = new System.Drawing.Size(79, 22);
-            this.radioButtonParsonal.TabIndex = 10;
-            this.radioButtonParsonal.TabStop = true;
-            this.radioButtonParsonal.Text = "Parsonal";
-            this.radioButtonParsonal.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonAgent
-            // 
-            this.radioButtonAgent.AutoSize = true;
-            this.radioButtonAgent.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonAgent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(186)))), ((int)(((byte)(190)))));
-            this.radioButtonAgent.Location = new System.Drawing.Point(122, 27);
-            this.radioButtonAgent.Name = "radioButtonAgent";
-            this.radioButtonAgent.Size = new System.Drawing.Size(63, 22);
-            this.radioButtonAgent.TabIndex = 10;
-            this.radioButtonAgent.TabStop = true;
-            this.radioButtonAgent.Text = "Agent";
-            this.radioButtonAgent.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Gray;
-            this.label15.Location = new System.Drawing.Point(384, 114);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(81, 19);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "User Name";
-            // 
-            // textBoxUserName
-            // 
-            this.textBoxUserName.BackColor = System.Drawing.Color.White;
-            this.textBoxUserName.ForeColor = System.Drawing.Color.Red;
-            this.textBoxUserName.Location = new System.Drawing.Point(388, 133);
-            this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(220, 24);
-            this.textBoxUserName.TabIndex = 16;
-            // 
-            // dateTimePickerDOB
-            // 
-            this.dateTimePickerDOB.CalendarForeColor = System.Drawing.Color.Red;
-            this.dateTimePickerDOB.Location = new System.Drawing.Point(155, 186);
-            this.dateTimePickerDOB.MaxDate = new System.DateTime(2022, 12, 28, 0, 0, 0, 0);
-            this.dateTimePickerDOB.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.dateTimePickerDOB.Name = "dateTimePickerDOB";
-            this.dateTimePickerDOB.Size = new System.Drawing.Size(220, 24);
-            this.dateTimePickerDOB.TabIndex = 25;
-            // 
             // RegistrationInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -468,8 +392,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -489,7 +411,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labeluser;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -501,12 +423,6 @@
         private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.RadioButton radioButtonAgent;
-        private System.Windows.Forms.RadioButton radioButtonParsonal;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBoxUserName;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.DateTimePicker dateTimePickerDOB;
     }
 }
