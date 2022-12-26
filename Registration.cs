@@ -93,11 +93,6 @@ namespace bKash_Desktop_Application
                     isValid = false;
                     labelWrong.Visible = true;
                 }
-
-                if (isValid)
-                {
-                    
-                }
             }
             else
             {

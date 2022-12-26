@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentDashboard.Designer.cs">
+      <DependentUpon>AgentDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="bKashPin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="TransactionForm.Designer.cs">
       <DependentUpon>TransactionForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AgentDashboard.resx">
+      <DependentUpon>AgentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bKashPin.resx">
       <DependentUpon>bKashPin.cs</DependentUpon>
     </EmbeddedResource>

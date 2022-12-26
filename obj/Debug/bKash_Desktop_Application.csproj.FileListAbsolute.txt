@@ -33,3 +33,4 @@ E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Appl
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.csproj.CoreCompileInputs.cache
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.exe
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.pdb
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.AgentDashboard.resources
