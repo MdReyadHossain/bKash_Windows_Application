@@ -1,0 +1,20 @@
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.exe.config
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.pdb
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.AssemblyReference.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.Admin.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.Properties.Resources.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.GenerateResource.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.CoreCompileInputs.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\New folder\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.pdb
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.exe.config
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\bin\Debug\Admin_bKash.pdb
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.AssemblyReference.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.Admin.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.Properties.Resources.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.GenerateResource.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.csproj.CoreCompileInputs.cache
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.exe
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bKash Admin Portal\Admin_bKash\Admin_bKash\obj\Debug\Admin_bKash.pdb

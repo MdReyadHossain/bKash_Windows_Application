@@ -97,10 +97,5 @@ namespace bKash_Desktop_Application
                 }
             }
         }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
