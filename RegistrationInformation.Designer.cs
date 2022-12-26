@@ -147,12 +147,14 @@
             // 
             this.dateTimePickerDOB.CalendarForeColor = System.Drawing.Color.Red;
             this.dateTimePickerDOB.CalendarTitleForeColor = System.Drawing.Color.Red;
+            this.dateTimePickerDOB.CustomFormat = "26-Dec-22";
             this.dateTimePickerDOB.Location = new System.Drawing.Point(155, 186);
-            this.dateTimePickerDOB.MaxDate = new System.DateTime(2022, 12, 28, 0, 0, 0, 0);
+            this.dateTimePickerDOB.MaxDate = new System.DateTime(2022, 12, 26, 0, 0, 0, 0);
             this.dateTimePickerDOB.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dateTimePickerDOB.Name = "dateTimePickerDOB";
             this.dateTimePickerDOB.Size = new System.Drawing.Size(220, 24);
             this.dateTimePickerDOB.TabIndex = 25;
+            this.dateTimePickerDOB.Value = new System.DateTime(2022, 12, 26, 0, 0, 0, 0);
             // 
             // label13
             // 

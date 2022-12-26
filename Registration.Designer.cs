@@ -30,15 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registration));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.radioButtonAgent = new System.Windows.Forms.RadioButton();
+            this.radioButtonPersonal = new System.Windows.Forms.RadioButton();
+            this.label14 = new System.Windows.Forms.Label();
             this.button1submit = new System.Windows.Forms.Button();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.labelWrong = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.labelCodeWrong = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -52,31 +59,87 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.radioButtonAgent = new System.Windows.Forms.RadioButton();
-            this.radioButtonPersonal = new System.Windows.Forms.RadioButton();
-            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.button1submit);
             this.panel1.Controls.Add(this.textBoxPhone);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.labelWrong);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(336, 441);
             this.panel1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(40, 313);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(45, 24);
+            this.textBox2.TabIndex = 10;
+            this.textBox2.Text = "+88";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.radioButtonAgent);
+            this.panel4.Controls.Add(this.radioButtonPersonal);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Location = new System.Drawing.Point(1, 182);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(241, 54);
+            this.panel4.TabIndex = 25;
+            // 
+            // radioButtonAgent
+            // 
+            this.radioButtonAgent.AutoSize = true;
+            this.radioButtonAgent.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonAgent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(186)))), ((int)(((byte)(190)))));
+            this.radioButtonAgent.Location = new System.Drawing.Point(122, 27);
+            this.radioButtonAgent.Name = "radioButtonAgent";
+            this.radioButtonAgent.Size = new System.Drawing.Size(63, 22);
+            this.radioButtonAgent.TabIndex = 10;
+            this.radioButtonAgent.TabStop = true;
+            this.radioButtonAgent.Text = "Agent";
+            this.radioButtonAgent.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonPersonal
+            // 
+            this.radioButtonPersonal.AutoSize = true;
+            this.radioButtonPersonal.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonPersonal.ForeColor = System.Drawing.Color.Red;
+            this.radioButtonPersonal.Location = new System.Drawing.Point(7, 28);
+            this.radioButtonPersonal.Name = "radioButtonPersonal";
+            this.radioButtonPersonal.Size = new System.Drawing.Size(80, 22);
+            this.radioButtonPersonal.TabIndex = 10;
+            this.radioButtonPersonal.TabStop = true;
+            this.radioButtonPersonal.Text = "Personal";
+            this.radioButtonPersonal.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Gray;
+            this.label14.Location = new System.Drawing.Point(3, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(91, 19);
+            this.label14.TabIndex = 9;
+            this.label14.Text = "Choose User";
             // 
             // button1submit
             // 
@@ -96,9 +159,9 @@
             // 
             this.textBoxPhone.BackColor = System.Drawing.Color.White;
             this.textBoxPhone.ForeColor = System.Drawing.Color.Red;
-            this.textBoxPhone.Location = new System.Drawing.Point(40, 313);
+            this.textBoxPhone.Location = new System.Drawing.Point(84, 313);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(239, 24);
+            this.textBoxPhone.Size = new System.Drawing.Size(197, 24);
             this.textBoxPhone.TabIndex = 6;
             // 
             // textBox1
@@ -134,6 +197,18 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Registration";
             // 
+            // labelWrong
+            // 
+            this.labelWrong.AutoSize = true;
+            this.labelWrong.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWrong.ForeColor = System.Drawing.Color.Red;
+            this.labelWrong.Location = new System.Drawing.Point(287, 314);
+            this.labelWrong.Name = "labelWrong";
+            this.labelWrong.Size = new System.Drawing.Size(21, 22);
+            this.labelWrong.TabIndex = 5;
+            this.labelWrong.Text = "X";
+            this.labelWrong.Visible = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -167,6 +242,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.labelCodeWrong);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label8);
@@ -181,6 +257,18 @@
             this.panel2.Size = new System.Drawing.Size(396, 441);
             this.panel2.TabIndex = 1;
             this.panel2.Visible = false;
+            // 
+            // labelCodeWrong
+            // 
+            this.labelCodeWrong.AutoSize = true;
+            this.labelCodeWrong.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCodeWrong.ForeColor = System.Drawing.Color.Red;
+            this.labelCodeWrong.Location = new System.Drawing.Point(285, 237);
+            this.labelCodeWrong.Name = "labelCodeWrong";
+            this.labelCodeWrong.Size = new System.Drawing.Size(21, 22);
+            this.labelCodeWrong.TabIndex = 13;
+            this.labelCodeWrong.Text = "X";
+            this.labelCodeWrong.Visible = false;
             // 
             // label10
             // 
@@ -334,53 +422,6 @@
     "at bkash.desktop.application.com\r\n";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.radioButtonAgent);
-            this.panel4.Controls.Add(this.radioButtonPersonal);
-            this.panel4.Controls.Add(this.label14);
-            this.panel4.Location = new System.Drawing.Point(1, 182);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(241, 54);
-            this.panel4.TabIndex = 25;
-            // 
-            // radioButtonAgent
-            // 
-            this.radioButtonAgent.AutoSize = true;
-            this.radioButtonAgent.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonAgent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(186)))), ((int)(((byte)(190)))));
-            this.radioButtonAgent.Location = new System.Drawing.Point(122, 27);
-            this.radioButtonAgent.Name = "radioButtonAgent";
-            this.radioButtonAgent.Size = new System.Drawing.Size(63, 22);
-            this.radioButtonAgent.TabIndex = 10;
-            this.radioButtonAgent.TabStop = true;
-            this.radioButtonAgent.Text = "Agent";
-            this.radioButtonAgent.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonPersonal
-            // 
-            this.radioButtonPersonal.AutoSize = true;
-            this.radioButtonPersonal.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonPersonal.ForeColor = System.Drawing.Color.Red;
-            this.radioButtonPersonal.Location = new System.Drawing.Point(7, 28);
-            this.radioButtonPersonal.Name = "radioButtonPersonal";
-            this.radioButtonPersonal.Size = new System.Drawing.Size(80, 22);
-            this.radioButtonPersonal.TabIndex = 10;
-            this.radioButtonPersonal.TabStop = true;
-            this.radioButtonPersonal.Text = "Personal";
-            this.radioButtonPersonal.UseVisualStyleBackColor = true;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(3, 6);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 19);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "Choose User";
-            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -398,13 +439,13 @@
             this.Text = "Registration";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -438,5 +479,8 @@
         private System.Windows.Forms.RadioButton radioButtonAgent;
         private System.Windows.Forms.RadioButton radioButtonPersonal;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label labelWrong;
+        private System.Windows.Forms.Label labelCodeWrong;
     }
 }

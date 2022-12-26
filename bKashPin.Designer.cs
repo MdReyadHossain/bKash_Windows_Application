@@ -30,28 +30,28 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bKashPin));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.labelRight = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.labelWrong = new System.Windows.Forms.Label();
+            this.textBoxPIN = new System.Windows.Forms.TextBox();
+            this.textBoxRePIN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.labelRight);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.labelWrong);
+            this.panel1.Controls.Add(this.textBoxPIN);
+            this.panel1.Controls.Add(this.textBoxRePIN);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -60,6 +60,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(478, 441);
             this.panel1.TabIndex = 0;
+            // 
+            // labelRight
+            // 
+            this.labelRight.AutoSize = true;
+            this.labelRight.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRight.ForeColor = System.Drawing.Color.LimeGreen;
+            this.labelRight.Location = new System.Drawing.Point(391, 256);
+            this.labelRight.Name = "labelRight";
+            this.labelRight.Size = new System.Drawing.Size(70, 19);
+            this.labelRight.TabIndex = 7;
+            this.labelRight.Text = "Matched";
+            this.labelRight.Visible = false;
             // 
             // label2
             // 
@@ -86,23 +98,37 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // labelWrong
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.ForeColor = System.Drawing.Color.Red;
-            this.textBox1.Location = new System.Drawing.Point(165, 227);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 24);
-            this.textBox1.TabIndex = 19;
+            this.labelWrong.AutoSize = true;
+            this.labelWrong.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWrong.ForeColor = System.Drawing.Color.Red;
+            this.labelWrong.Location = new System.Drawing.Point(391, 255);
+            this.labelWrong.Name = "labelWrong";
+            this.labelWrong.Size = new System.Drawing.Size(56, 19);
+            this.labelWrong.TabIndex = 7;
+            this.labelWrong.Text = "Wrong";
+            this.labelWrong.Visible = false;
             // 
-            // textBox2
+            // textBoxPIN
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.ForeColor = System.Drawing.Color.Red;
-            this.textBox2.Location = new System.Drawing.Point(165, 251);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 24);
-            this.textBox2.TabIndex = 18;
+            this.textBoxPIN.BackColor = System.Drawing.Color.White;
+            this.textBoxPIN.ForeColor = System.Drawing.Color.Red;
+            this.textBoxPIN.Location = new System.Drawing.Point(165, 227);
+            this.textBoxPIN.Name = "textBoxPIN";
+            this.textBoxPIN.Size = new System.Drawing.Size(220, 24);
+            this.textBoxPIN.TabIndex = 19;
+            this.textBoxPIN.TextChanged += new System.EventHandler(this.textBoxPIN_TextChanged);
+            // 
+            // textBoxRePIN
+            // 
+            this.textBoxRePIN.BackColor = System.Drawing.Color.White;
+            this.textBoxRePIN.ForeColor = System.Drawing.Color.Red;
+            this.textBoxRePIN.Location = new System.Drawing.Point(165, 251);
+            this.textBoxRePIN.Name = "textBoxRePIN";
+            this.textBoxRePIN.Size = new System.Drawing.Size(220, 24);
+            this.textBoxRePIN.TabIndex = 18;
+            this.textBoxRePIN.TextChanged += new System.EventHandler(this.textBoxRePIN_TextChanged);
             // 
             // label1
             // 
@@ -147,28 +173,6 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label3.Location = new System.Drawing.Point(391, 255);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 19);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Matched";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(391, 255);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 19);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Wrong";
-            // 
             // bKashPin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -196,11 +200,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxPIN;
+        private System.Windows.Forms.TextBox textBoxRePIN;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelRight;
+        private System.Windows.Forms.Label labelWrong;
     }
 }

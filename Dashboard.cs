@@ -40,7 +40,9 @@ namespace bKash_Desktop_Application
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            MobileRecharge mobileRecharge = new MobileRecharge();
+            this.Hide();
+            mobileRecharge.Show();
         }
 
         private void label18_Click_1(object sender, EventArgs e)

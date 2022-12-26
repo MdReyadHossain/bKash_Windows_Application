@@ -71,9 +71,9 @@
             this.textBox1.Location = new System.Drawing.Point(71, 213);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(45, 28);
+            this.textBox1.Size = new System.Drawing.Size(45, 24);
             this.textBox1.TabIndex = 9;
-            this.textBox1.Text = "+880";
+            this.textBox1.Text = "+88";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
@@ -110,7 +110,7 @@
             this.textBox2bkashPin.Location = new System.Drawing.Point(71, 278);
             this.textBox2bkashPin.Name = "textBox2bkashPin";
             this.textBox2bkashPin.PasswordChar = '.';
-            this.textBox2bkashPin.Size = new System.Drawing.Size(282, 28);
+            this.textBox2bkashPin.Size = new System.Drawing.Size(282, 24);
             this.textBox2bkashPin.TabIndex = 6;
             this.textBox2bkashPin.UseSystemPasswordChar = true;
             // 
@@ -119,7 +119,7 @@
             this.textBox1accountNumber.BackColor = System.Drawing.Color.White;
             this.textBox1accountNumber.Location = new System.Drawing.Point(114, 213);
             this.textBox1accountNumber.Name = "textBox1accountNumber";
-            this.textBox1accountNumber.Size = new System.Drawing.Size(239, 28);
+            this.textBox1accountNumber.Size = new System.Drawing.Size(239, 24);
             this.textBox1accountNumber.TabIndex = 5;
             // 
             // label6
@@ -131,7 +131,7 @@
             this.label6.ForeColor = System.Drawing.Color.Navy;
             this.label6.Location = new System.Drawing.Point(361, 283);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 18);
+            this.label6.Size = new System.Drawing.Size(63, 14);
             this.label6.TabIndex = 4;
             this.label6.Text = "forget PIN?";
             // 
@@ -143,7 +143,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(67, 251);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 24);
+            this.label5.Size = new System.Drawing.Size(78, 19);
             this.label5.TabIndex = 3;
             this.label5.Text = "bKash PIN";
             // 
@@ -155,7 +155,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(67, 186);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 24);
+            this.label4.Size = new System.Drawing.Size(126, 19);
             this.label4.TabIndex = 2;
             this.label4.Text = "Account Number";
             // 
@@ -167,7 +167,7 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(67, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(173, 22);
+            this.label3.Size = new System.Drawing.Size(143, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "to your bKash account";
             // 
@@ -179,7 +179,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(53)))), ((int)(((byte)(82)))));
             this.label2.Location = new System.Drawing.Point(64, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 40);
+            this.label2.Size = new System.Drawing.Size(81, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Log In";
             // 
@@ -201,13 +201,13 @@
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(186, 309);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 37);
+            this.label1.Size = new System.Drawing.Size(74, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "bKash";
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1006, 465);

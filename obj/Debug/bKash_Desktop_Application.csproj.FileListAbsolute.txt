@@ -15,6 +15,7 @@ D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.Registr
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.SendMoney.resources
 D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.TransactionForm.resources
+D:\Code\C#\bKash_Desktop_Application\obj\Debug\bKash_Desktop_Application.MobileRecharge.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.exe.config
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.exe
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\bKash_Desktop_Application.pdb
@@ -22,6 +23,7 @@ E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Appl
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.bKashPin.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Dashboard.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Home.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.MobileRecharge.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Properties.Resources.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.Registration.resources
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.RegistrationInformation.resources
