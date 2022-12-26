@@ -34,3 +34,10 @@ E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Appl
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.exe
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.pdb
 E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.AgentDashboard.resources
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.dll
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.Video.DirectShow.dll
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.Video.dll
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.xml
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.Video.xml
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\bin\Debug\AForge.Video.DirectShow.xml
+E:\My Files\Reyad\Study\AIUB\Notes\9th Semester\C#\FT\Project\bKash_Windows_Application\obj\Debug\bKash_Desktop_Application.csproj.CopyComplete

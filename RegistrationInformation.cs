@@ -4,9 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using AForge.Video;
+using AForge.Video.DirectShow;
 using System.Windows.Forms;
 using System.IO;
 
@@ -16,16 +20,77 @@ namespace bKash_Desktop_Application
     {
         string user, phoneNo;
         string userName, fatherName, motherName, DOB, bloodGroup, address, division;
+
+        VideoCaptureDevice videoCapture;
+        FilterInfoCollection camDevice;
+
         public RegistrationInformation(string user, string phoneNo)
         {
             InitializeComponent();
             this.user = user;
             this.phoneNo = phoneNo;
+
+            StartCamera();
         }
 
-        private void button1submit_Click(object sender, EventArgs e)
+        void StartCamera()
         {
+            try
+            {
+                camDevice = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+                videoCapture = new VideoCaptureDevice(camDevice[0].MonikerString);
+                videoCapture.NewFrame += new NewFrameEventHandler(Camera_ON);
+                videoCapture.Start();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        private void Camera_ON(object sender, NewFrameEventArgs eventArgs)
+        {
+            pictureBox.Image = (Bitmap)eventArgs.Frame.Clone();
+        }
+
+        private void RegistrationInformation_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            try
+            {
+                videoCapture.Stop();
+            }
+            catch
+            {
+                return;
+            }
+        }
+
+        private void buttonCapture_Click_1(object sender, EventArgs e)
+        {
+            pictureBox2.Image = pictureBox.Image;
+
+            string fileName = @"..\..\Image\" + this.phoneNo + ".jpg";
+            Directory.CreateDirectory(@"..\..\Image");
+
+            pictureBox2.Visible = true;
+            buttonAgain.Visible = true;
+            try
+            {
+                pictureBox2.Image.Save(fileName, ImageFormat.Jpeg);
+                MessageBox.Show("Image Captured", "Camera");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             panel2.Visible = true;
+        }
+
+        private void buttonAgain_Click_1(object sender, EventArgs e)
+        {
+            StartCamera();
+            buttonAgain.Visible = false;
+            pictureBox2.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)

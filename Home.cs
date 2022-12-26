@@ -93,7 +93,7 @@ namespace bKash_Desktop_Application
 
                 if (!isLogin)
                 {
-                    MessageBox.Show("User Number or Password Incorrect", "Login Error");
+                    MessageBox.Show("Account Number or PIN Incorrect", "Login Error");
                 }
             }
         }
